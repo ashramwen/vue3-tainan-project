@@ -10,7 +10,7 @@ import {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-
+  base: '/vue3-tainan-project/',
   plugins: [vue()],
   resolve: {
     alias: {
